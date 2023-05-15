@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alışveriş Sepeti</title>
+
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/headers/">
+    <link href="/docs/5.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/b438ee58fc.js" crossorigin="anonymous"></script>
+</head>
+<body  style="background-color: rgb(238, 134, 204); border-color: black; border-style: double; border-width: 5px;">
+    <div class="row" style="border-color: black; border-style: double; border-width: 5px;"><h5 STYLE=" font-family:'Times New Roman', Times, serif ">Gizem AVM</h5></div>
+
+    <div class="row" style="border-color: black; border-style: double; border-width: 5px;">
+    <div class="col-2"><h5 style=" font-family:'Times New Roman', Times, serif;" id="sekil" name="sekil">Ürün Adı:</h5></div>
+    <div class="col-2"><button class="w-10 px-5 btn btn-lg btn-light" type="button" data-bs-toggle="dropdown" aria-expanded="false" id="kare" name="kare">
+                Seçiniz
+            </button>
+        <div class="dropdown"></div>
+
+            <ul class="dropdown-menu">
+                <li><button class="dropdown-item" type="button" id="tv" name="tv">Televizyon</button></li>
+                <li><button class="dropdown-item" type="button" id="camasirmakine" name="camasirmakine">Çamaşır Makinesi</button></li>
+                <li><button class="dropdown-item" type="button" id="bulasikmakine" name="bulasikmakine">Bulaşık Makinesi</button></li>
+                <li><button class="dropdown-item" type="button" id="camasirkurutmakine" name="camasirkurutmakine">Çamaşır Kurutma Makinesi</button></li>
+                <li><button class="dropdown-item" type="button" id="buzdolabi" name="buzdolabi">Buzdolabı</button></li>
+                <li><button class="dropdown-item" type="button" id="ocak" name="ocak">Ocak</button></li>
+                <li><button class="dropdown-item" type="button" id="firin" name="firin">Fırın</button></li>
+                <li><button class="dropdown-item" type="button" id="davlumbaz" name="davlumbaz">Davlumbaz</button></li>
+            </ul>
+    </div></div>
+    <div class="col-2"></div>
+    <div class="col-6"></div>
+    </div>
+    <div class="row" style="border-color: black; border-style: double; border-width: 5px;">
+        <div class="col-2"><h5 style="font-family:'Times New Roman', Times, serif">Miktarı:</h5></div>
+        <div class="col-2"> <div class="form-floating">
+            <input type="number" class="form-control" id="miktar" name="miktar">
+        </div></div>
+        <div class="col-2"></div>
+        <div class="col-6"></div>
+        </div>
+
+    <div class="row" style="border-color: black; border-style: double; border-width: 5px;">
+        <div class="col-6">
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">
+                6 ay taksit seçeneği için lütfen işaretleyiniz:
+                </label><br/>
+                <br/>
+                
+                <button class="dropdown-item" type="button" id="firin" name="firin"; style="background-color:white; width: 1cm;">Öde</button>
+
+              </div>
+        </div>
+
+        <div class="col-6"> <h3>Seçilen Ürünler:</h3></div>
+    </div>
+
+        </div>
+</body>
+</html>
